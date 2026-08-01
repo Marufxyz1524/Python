@@ -1,22 +1,23 @@
 boys =['maruf','sayem','rakib','eaysin']
+
 # print(boys.title()) >>THIS IS INVALID.RETURN ERROR
 # print(boys[1].title())
 # print(boys[3].upper())
 # print(boys[0])
 
 # messge = f"My first frined was {boys[3].upper()}"
-# print(messge) --.. this is important
+# print(messge)     
 
-# MODIFING ELEMENTS IN A LIST..
+# # MODIFING ELEMENTS IN A LIST..
 # print(boys)
 # boys[0] = "shuvo"
 # print(boys)
 
-# APPENDINING ELEMENTS -->>
+# #  APPENDINING ELEMENTS -->>
 # print(boys)
 # boys.append("asif")
 # print(boys)
-
+ 
 # girls = []
 # girls.append("ayat")
 # girls.append("nova")
@@ -24,7 +25,7 @@ boys =['maruf','sayem','rakib','eaysin']
 # # print(girls.title()) -->>return err0r
 # print(girls)
 
-# INSERTING ELEMENTS ->>
+# # INSERTING ELEMENTS ->>
 # print(boys)
 # boys.insert(1,"tarikul")
 # print(boys)
@@ -34,8 +35,14 @@ boys =['maruf','sayem','rakib','eaysin']
 # del boys[1]
 # print(boys)
 
-# popped methods-->>
-print(boys)
-popped_boy = boys.pop()
-print(boys)
-print(popped_boy.title())
+# # popped methods-->>
+# # print(boys)
+# popped_boy = boys.pop()
+# print(boys)
+# print(popped_boy.title())  
+
+# REVERSE METHODE
+# boys.reverse()
+# print(boys)
+# len(boys)
+# print(boys)
