@@ -13,13 +13,13 @@ class Student:
          print("Your id is ",self.id) 
 
     def present_day(self):
-         print("You present in company ",self.present)
+         print("You present in your company ",self.present)
 
     def ur_sallery(self):
          print("So your saller is ",self.sallery)
 
     def u_absent(self):
-        print("Cause you absented ",self.absent) 
+        print("Cause you ABSeNt ",self.absent) 
 
 person = Student("Maruf",220,120,23000,67)
 
