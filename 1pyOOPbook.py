@@ -3,7 +3,7 @@ class Car:
         self.make = make
         self.model = model
         self.year = year
-        self.miles = 0
+        self.miles = 0  ##default attributes
 
     def get_descriptive(self):
 
@@ -16,6 +16,7 @@ class Car:
 
 my_new_car = Car("Ferrari","m6",2025)
 print(my_new_car.get_descriptive())
+my_new_car.miles = 23 ##Modified attributes 
 my_new_car.read_odometar()
 
 
